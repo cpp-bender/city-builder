@@ -1,0 +1,10 @@
+Game Menu icin gerekli adimlar:
+
+0) Text Mesh Pro ve Essentials'i yukle.
+1) Oyunun kendi ismini yaz.
+2) Font main color'ini belirle. Buna uygun font outline'ini belirle.
+3) Gem color'i belirle
+4) Gem'lerin script'ine "GameManager.instance.CollectGem()" methodunu ekle.
+5) Win condition icin "GameManager.instance.LevelComplete()" methodunu ekle.
+6) Fail condition icin "GameManager.instance.LevelFail()" methodunu ekle.
+7) Tutorial text'ini ve elin durumunu oyuna gore degerlendir.

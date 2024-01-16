@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9361466ed361ee940b9ae6385431021f, type: 3}
+  m_Name: Level07 11X4
+  m_EditorClassIdentifier: 
+  initialPos: {x: 0.75, y: 0, z: 30}
+  gridCoord: 0
+  width: 11
+  height: 4
+  widthOffset: 5
+  heightOffset: 5
+  gridPrefab: {fileID: 1720440690769911165, guid: 85314ea3c5a07d34b8cf0627977ba2cb, type: 3}
+  parentName: Grid
+  childName: 'Cell '

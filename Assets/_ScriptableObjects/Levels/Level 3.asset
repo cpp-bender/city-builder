@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a7096556684594baed56b85c10cebf, type: 3}
+  m_Name: Level 3
+  m_EditorClassIdentifier: 
+  gridSettings:
+  - {fileID: 11400000, guid: c185cdb324497ed41976388510323b34, type: 2}
+  - {fileID: 11400000, guid: ac3e4bae2a7d76648bf38c583393d793, type: 2}
+  slotTypes:
+  - slotTypes: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - slotTypes: 000000000000000000000000000000000000000000000000000000000000000000000000
+  initCamPos: {x: 10, y: 105, z: 5}
+  initCamRot: {x: 90, y: 0, z: 0}
+  lastCamPos: {x: 9.6, y: 97.1, z: -67.6}
+  lastCamRot: {x: 50, y: 0, z: 0}
+  moveAcrossLevel: 1
+  camSettings:
+  - pos: {x: -5, y: 50.1, z: -41.8}
+    rot: {x: 50, y: 0, z: 0}
+  - pos: {x: 30, y: 42.4, z: -35}
+    rot: {x: 50, y: 0, z: 0}
+  mapPrefab: {fileID: 7841780267842366769, guid: 68049af1b9b3d2545952ad7dd5720070, type: 3}
+  selectables:
+  - selectableSettings:
+    - selectable: {fileID: 6154860145789238466, guid: 8b3f24988cd1fa74aaa7beffb23fbe0b, type: 3}
+      initPos: {x: -2.5, y: 27, z: -31}
+      initRot: {x: 0, y: 0, z: 0}
+      initScale: 1
+      count: 2
+    - selectable: {fileID: -5821141244924949401, guid: 54650b84a11b2ab43842e1d9c253faf2, type: 3}
+      initPos: {x: -6.5, y: 27, z: -31}
+      initRot: {x: 0, y: 0, z: 0}
+      initScale: 1.5
+      count: 1
+    - selectable: {fileID: -4606495825483250259, guid: 40a59b508d9ce484ca158f0ab891cdf1, type: 3}
+      initPos: {x: -8, y: 27, z: -31}
+      initRot: {x: 0, y: 0, z: 0}
+      initScale: 1.5
+      count: 1
+    - selectable: {fileID: 2747688701812702823, guid: 4cbbe1aca4df5a846b389184da5f87ea, type: 3}
+      initPos: {x: -4.5, y: 27, z: -31}
+      initRot: {x: 0, y: 0, z: 0}
+      initScale: 1
+      count: 2
+  - selectableSettings:
+    - selectable: {fileID: 5989103579900961892, guid: 1e7a7866d760e4a44a871cc773cb22d4, type: 3}
+      initPos: {x: 28, y: 27.5, z: -31}
+      initRot: {x: 0, y: 180, z: 0}
+      initScale: 1
+      count: 1
+    - selectable: {fileID: -7769055837263533414, guid: 2462c1c0222204c42a20d915ae30ea99, type: 3}
+      initPos: {x: 30.5, y: 27.5, z: -31}
+      initRot: {x: 0, y: 0, z: 0}
+      initScale: 1.5
+      count: 1
+    - selectable: {fileID: 498071011160017392, guid: 5c1c83cb29254ce45ba11cfbf28dabcf, type: 3}
+      initPos: {x: 33, y: 27.5, z: -31}
+      initRot: {x: 0, y: 0, z: 0}
+      initScale: 1
+      count: 2
+  deckPrefab: {fileID: 5496849726596747685, guid: cb77346d84b4bd54f94d7eca76eb32f5, type: 3}
+  decks:
+  - initPos: {x: -5, y: 3.64, z: -25}
+    initRot: {x: -90, y: 180, z: 0}
+    initScale: {x: 11, y: 11, z: 11}
+  - initPos: {x: 30, y: 5.6, z: -25}
+    initRot: {x: -90, y: 180, z: 0}
+    initScale: {x: 11, y: 11, z: 11}

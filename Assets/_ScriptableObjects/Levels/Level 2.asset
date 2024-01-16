@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a7096556684594baed56b85c10cebf, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  gridSettings:
+  - {fileID: 11400000, guid: 9ed2cba58d2af43459d7194fadd0c3b8, type: 2}
+  - {fileID: 11400000, guid: ac3e4bae2a7d76648bf38c583393d793, type: 2}
+  slotTypes:
+  - slotTypes: 000000000000000000000000000000000000000000000000000000000000000000000000
+  - slotTypes: 000000000000000000000000000000000000000000000000000000000000000000000000
+  initCamPos: {x: 15, y: 100, z: 5}
+  initCamRot: {x: 90, y: 0, z: 0}
+  lastCamPos: {x: 15.1, y: 82.16, z: -80.53}
+  lastCamRot: {x: 44.655964, y: 0, z: 0}
+  moveAcrossLevel: 1
+  camSettings:
+  - pos: {x: 0, y: 37.03, z: -46.39}
+    rot: {x: 44.655964, y: 0, z: 0}
+  - pos: {x: 30, y: 37.03, z: -46.39}
+    rot: {x: 44.655964, y: 0, z: 0}
+  mapPrefab: {fileID: 7841780267842366769, guid: 1a4fd52ad2f36d847b27cab29aaa0a2f, type: 3}
+  selectables:
+  - selectableSettings:
+    - selectable: {fileID: 8057175798359598789, guid: 773af3d255d72d44da0f01e859f45cf1, type: 3}
+      initPos: {x: -0.778, y: 23.68751, z: -41.53683}
+      initRot: {x: 0, y: 180, z: 0}
+      initScale: 1
+      count: 1
+    - selectable: {fileID: 620495829351778248, guid: 53a048a702448724cb8cc3338b9ff06f, type: 3}
+      initPos: {x: 1.62, y: 23.68751, z: -41.53683}
+      initRot: {x: 0, y: 0, z: 0}
+      initScale: 1
+      count: 2
+  - selectableSettings:
+    - selectable: {fileID: 7012113655184845532, guid: 92ee595b7aebbb14e9cb3c12f81350b5, type: 3}
+      initPos: {x: 29.3, y: 23.68751, z: -41.53683}
+      initRot: {x: 0, y: 180, z: 0}
+      initScale: 1
+      count: 1
+    - selectable: {fileID: 2599594193217660389, guid: 252b887916d1ade48833646001b4cc9b, type: 3}
+      initPos: {x: 31.935999, y: 23.68751, z: -41.53683}
+      initRot: {x: 0, y: 180, z: 0}
+      initScale: 2
+      count: 2
+  deckPrefab: {fileID: 5496849726596747685, guid: cb77346d84b4bd54f94d7eca76eb32f5, type: 3}
+  decks:
+  - initPos: {x: 0, y: 0, z: -33}
+    initRot: {x: -90, y: 180, z: 0}
+    initScale: {x: 11, y: 11, z: 11}
+  - initPos: {x: 30, y: 0, z: -33}
+    initRot: {x: -90, y: 180, z: 0}
+    initScale: {x: 11, y: 11, z: 11}
